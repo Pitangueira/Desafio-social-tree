@@ -1,28 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
 
-Comentários em css
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 
-/* comentário aqui 
+body, html {
 
-Estrutura do css:
-
-elemento do html  {  propriedade + valor
-
-    ex color propriedade blue valor
-
+    font-family: 'Poppins', sans-serif;
+    background: var(--white-light);
 
 }
 
+.container {
+
+        width: 80vw;
+        height: 80vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.container .tree-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container .avatar {
+
+    width: 213px;
+    height: 213px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--purple);
+    border-radius: 50%;
+
+}
+
+.tree-container .avatar img {
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 95px;
 
 
 
+} 
 
+.tree-container .instagram-user {
 
+    margin: top 20px;
+    padding: 10px;
+    color: var(--purple);
 
-*/
+}
 
-h1 { color: aliceblue;
-    width: fit-content;
-    background-color: grey;
+.tree-container .link-container {
 
+    margin-top: 17px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.link-container .link {
+   
+
+    margin-top: 16px;
+    width: 325px;
+    
+    position: flex;
+    box-sizing: border-box;
+    
+
+    border: 2px solid var(--purple);
+
+    border-radius: 6px;
+
+    font-size: 15px;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+
+    transition: ease 0.3s;
+}
+
+.link-container .link:hover {
+
+    background: var(--purple);
+    color: var(--white-light);
+
+}
+
+.tree-container .social-container {
+
+    margin-top: 68px;
+
+    display: grid;
+    grid-template-columns: repeat(4);
+    gap: 29px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-container .social {
+    transform:scale(1);
+    transition: ease 0.3s;
+
+}
+
+.social-container .social:hover {
+
+    transform:scale(1)
 }
