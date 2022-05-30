@@ -1,0 +1,28 @@
+
+
+Comentários em css
+
+/* comentário aqui 
+
+Estrutura do css:
+
+elemento do html  {  propriedade + valor
+
+    ex color propriedade blue valor
+
+
+}
+
+
+
+
+
+
+
+*/
+
+h1 { color: aliceblue;
+    width: fit-content;
+    background-color: grey;
+
+}
