@@ -124,8 +124,8 @@ body, html {
 }
 
 .social-container .social {
-    transform:scale(1);
-    transition: ease 0.3s;
+    transform:scale(1.5);
+    transition: ease 0.5s;
 
 }
 
